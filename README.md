@@ -29,6 +29,29 @@ Rememberry, despite having a considerable user base, suffers from a poor user in
 - Implement a repetition algorithm based on scientific research of human memory.
 - Develop an offline mode for repetition sessions.
 
+
+A spaced repetition algorithm is a learning technique that schedules the review of content at increasing intervals to optimize long-term retention. This method is based on the observation that people are more likely to remember information when it is studied and reviewed at spaced intervals, rather than crammed in a short period.
+
+The algorithm works by adjusting the intervals between reviews according to the learner's performance. When the learner successfully recalls a piece of information, the interval before the next review is increased. If the learner struggles or fails to recall the information, the interval is decreased.
+
+Here's a basic outline of how a spaced repetition algorithm works:
+
+Introduce new content: The learner is presented with new material (e.g., vocabulary words, grammar rules, etc.).
+
+Initial review: The learner reviews the new content after a short interval (e.g., a day).
+
+Assess performance: The learner's performance is evaluated through quizzes or other forms of assessment.
+
+Schedule next review: Based on the learner's performance, the algorithm determines the optimal time for the next review.
+
+Repeat steps 3-4: The process of assessing performance and scheduling reviews is repeated, with intervals increasing for correct responses and decreasing for incorrect ones.
+
+To implement a spaced repetition algorithm in your app, you can use an existing algorithm like the Leitner System or the SuperMemo algorithm (SM-2, SM-15, etc.), or develop your own based on scientific research in memory and learning.
+
+
+
+
+
 #### Benefits:
 - Improved user experience with an intuitive UI/UX design.
 - Enhanced learning experience by addressing user feedback and feature requests.
